@@ -39,6 +39,7 @@ h1, h2 {
 
 .drag-column {
   flex: 1;
+  margin: 0 10px;
 }
 
 ul {
