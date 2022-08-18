@@ -44,4 +44,8 @@ ul {
 
 .over {
   padding: 50px 10px;
+}
+
+.drag-item-list {
+  min-height: 50px;
 }/*# sourceMappingURL=main.css.map */
