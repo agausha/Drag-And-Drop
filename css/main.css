@@ -59,6 +59,7 @@ h2 {
 
 .custom-scroll {
   overflow-y: auto;
+  max-height: 75vh;
 }
 
 ul {
