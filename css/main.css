@@ -16,4 +16,5 @@ body {
   background: url("/img/trees.jpg");
   background-size: cover;
   background-position: 50% 60%;
+  background-attachment: fixed;
 }/*# sourceMappingURL=main.css.map */
