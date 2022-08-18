@@ -35,4 +35,9 @@ ul {
 
 .drag-container {
   margin: 20px;
+}
+
+.drag-list {
+  display: flex;
+  align-items: flex-start;
 }/*# sourceMappingURL=main.css.map */

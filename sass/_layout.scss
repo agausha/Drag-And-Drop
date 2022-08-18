@@ -8,4 +8,7 @@ ul {
   margin: 20px;
 }
 
-.drag-list {}
+.drag-list {
+  display: flex;
+  align-items: flex-start;
+}
