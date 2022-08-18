@@ -57,6 +57,10 @@ h2 {
   overflow-x: hidden;
 }
 
+.custom-scroll {
+  overflow-y: auto;
+}
+
 ul {
   list-style: none;
   margin: 0;
