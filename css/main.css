@@ -66,4 +66,10 @@ ul {
   outline: none;
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(0deg, 0%, 0%);
+}
+
+@media screen and (max-width: 600px) {
+  .drag-container {
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

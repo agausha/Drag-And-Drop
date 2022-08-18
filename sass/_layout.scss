@@ -39,3 +39,11 @@ ul {
     color: $color-primary-dark;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SMARTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .drag-container {
+    margin: 0;
+  }
+}
