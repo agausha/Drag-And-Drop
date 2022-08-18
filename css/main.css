@@ -59,4 +59,6 @@ ul {
   background-color: hsla(0deg, 0%, 0%, 0.8);
   border-radius: 10px;
   line-height: 1.5rem;
+  letter-spacing: 1px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
