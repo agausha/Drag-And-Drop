@@ -3,4 +3,7 @@ h1, h2 {
   text-shadow: 2px 2px 5px $color-primary-dark;
 }
 
-.main-title {}
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+}
