@@ -20,4 +20,10 @@ body {
   color: hsl(0deg, 0%, 100%);
   font-family: "Quicksand", sans-serif;
   overflow-y: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

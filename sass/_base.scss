@@ -37,3 +37,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   overflow-y: hidden;
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
+}
