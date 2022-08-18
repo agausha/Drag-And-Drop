@@ -36,6 +36,11 @@ h2 {
   font-size: 1.25rem;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 .main-title {
   text-align: center;
   font-size: 3rem;
