@@ -31,4 +31,8 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.drag-container {
+  margin: 20px;
 }/*# sourceMappingURL=main.css.map */
