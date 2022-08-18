@@ -56,7 +56,15 @@
             <h2>Progress</h2>
           </span>
           <!-- Progress Content -->
-          <div class="custom-scroll" id="progress-content"></div>
+          <div class="custom-scroll" id="progress-content">
+            <ul
+              class="drag-item-list"
+              id="progress-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragenter(1)"
+            ></ul>
+          </div>
         </li>
       </ul>
     </div>
