@@ -22,3 +22,7 @@ $color-primary-overlay-1: hsla(0, 0%, 0%, 0.4);
     padding: 0;
     border: 0;
 }
+
+html {
+  box-sizing: border-box;
+}
