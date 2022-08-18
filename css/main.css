@@ -40,4 +40,8 @@ ul {
 .drag-list {
   display: flex;
   align-items: flex-start;
+}
+
+.over {
+  padding: 50px 10px;
 }/*# sourceMappingURL=main.css.map */
