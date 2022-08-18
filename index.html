@@ -85,7 +85,15 @@
             <h2>Complete</h2>
           </span>
           <!-- Complete Content -->
-          <div class="custom-scroll" id="complete-content"></div>
+          <div class="custom-scroll" id="complete-content">
+            <ul
+              class="drag-item-list"
+              id="complete-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragEnter(2)"
+            ></ul>
+          </div>
         </li>
       </ul>
     </div>
