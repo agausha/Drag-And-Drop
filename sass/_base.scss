@@ -13,3 +13,12 @@ $color-primary-overlay-bg: hsla(0, 0%, 0%, 0.8);
 $color-primary-overlay-bg-1: hsla(0, 0%, 100%, 0.9);
 $color-primary-overlay-bg-2: hsla(0, 0%, 100%, 0.3);
 $color-primary-overlay-1: hsla(0, 0%, 0%, 0.4);
+
+/////////////////////////////////////////
+// CSS RESET
+*,
+*::before,
+*::after {
+    padding: 0;
+    border: 0;
+}
