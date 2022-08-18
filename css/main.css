@@ -27,6 +27,10 @@ body {
     overflow-y: auto;
   }
 }
+h1, h2 {
+  letter-spacing: 2px;
+}
+
 ul {
   list-style: none;
   margin: 0;
