@@ -64,4 +64,5 @@ ul {
 }
 .drag-item:focus {
   outline: none;
+  background-color: hsl(0deg, 0%, 100%);
 }/*# sourceMappingURL=main.css.map */
