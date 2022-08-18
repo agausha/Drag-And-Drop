@@ -19,4 +19,5 @@ body {
   background-attachment: fixed;
   color: hsl(0deg, 0%, 100%);
   font-family: "Quicksand", sans-serif;
+  overflow-y: hidden;
 }/*# sourceMappingURL=main.css.map */
