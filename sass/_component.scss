@@ -47,6 +47,9 @@ h2 {
 .complete-column .header,
 .complete-column .solid,
 .complete-column .solid:hover,
+.complete-column .over {
+  background-color: $color-primary-column-3;
+}
 
 /////////////////////////////////////////
 // CUSTOM SCROLLBAR
