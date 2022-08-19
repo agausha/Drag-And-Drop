@@ -159,3 +159,11 @@ h2 {
     font-size: 2rem;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SMARTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .drag-column {
+    margin: 10px;
+  }
+}
