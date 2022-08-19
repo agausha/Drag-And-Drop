@@ -28,7 +28,7 @@ ul {
   padding: 10px;
   height: fit-content;
   background-color: $color-primary-overlay-bg;
-  border-radius: 10px;
+  border-radius: $border--radius;
   line-height: 1.5rem;
   letter-spacing: 1px;
   cursor: pointer;
