@@ -88,5 +88,6 @@ h2 {
   &:hover {
     transition: unset;
     filter: brightness(95%);
+    color: $color-primary-white;
   }
 }

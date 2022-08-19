@@ -111,6 +111,7 @@ h2 {
 .solid:hover {
   transition: unset;
   filter: brightness(95%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 ul {
