@@ -54,6 +54,9 @@ h2 {
 .on-hold-column .header,
 .on-hold-column .solid,
 .on-hold-column .solid:hover,
+.on-hold-column .over {
+  background-color: $color-primary-column-4;
+}
 
 /////////////////////////////////////////
 // CUSTOM SCROLLBAR
