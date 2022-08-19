@@ -78,19 +78,23 @@ h2 {
   background-color: hsl(120deg, 57%, 33%);
 }
 
+.on-hold-column .header,
 .custom-scroll {
   overflow-y: auto;
   max-height: 75vh;
 }
+.on-hold-column .header::-webkit-scrollbar-track,
 .custom-scroll::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 100%, 0.3);
   margin-right: 5px;
 }
+.on-hold-column .header::-webkit-scrollbar,
 .custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
+.on-hold-column .header::-webkit-scrollbar-thumb,
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
