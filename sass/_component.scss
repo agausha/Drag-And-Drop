@@ -77,5 +77,7 @@ h2 {
     color: $color-primary-dark;
   }
 
-  &:active {}
+  &:active {
+    transform: scale(0.97);
+  }
 }
