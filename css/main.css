@@ -99,6 +99,7 @@ h2 {
 }
 .add-btn:hover {
   background-color: hsla(0deg, 0%, 100%, 0.9);
+  color: hsl(0deg, 0%, 0%);
 }
 
 ul {
