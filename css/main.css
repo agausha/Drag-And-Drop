@@ -73,12 +73,14 @@ h2 {
 
 .complete-column .header,
 .complete-column .solid,
+.complete-column .solid:hover,
 .custom-scroll {
   overflow-y: auto;
   max-height: 75vh;
 }
 .complete-column .header::-webkit-scrollbar-track,
 .complete-column .solid::-webkit-scrollbar-track,
+.complete-column .solid:hover::-webkit-scrollbar-track,
 .custom-scroll::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
   border-radius: 10px;
@@ -87,11 +89,13 @@ h2 {
 }
 .complete-column .header::-webkit-scrollbar,
 .complete-column .solid::-webkit-scrollbar,
+.complete-column .solid:hover::-webkit-scrollbar,
 .custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
 .complete-column .header::-webkit-scrollbar-thumb,
 .complete-column .solid::-webkit-scrollbar-thumb,
+.complete-column .solid:hover::-webkit-scrollbar-thumb,
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
