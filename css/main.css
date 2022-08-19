@@ -173,6 +173,11 @@ h2 {
   outline: none;
 }
 
+@media screen and (max-width: 1800px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}
 ul {
   list-style: none;
   margin: 0;
