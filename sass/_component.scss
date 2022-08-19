@@ -141,7 +141,7 @@ h2 {
   min-height: 100px;
   height: auto;
   background-color: $color-primary-white;
-  border-radius: 10px;
+  border-radius: $border--radius;
   margin: 5px auto;
   resize: none;
   color: $color-primary-dark;
