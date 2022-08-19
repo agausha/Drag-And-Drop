@@ -90,6 +90,8 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
 }
 
 ul {
