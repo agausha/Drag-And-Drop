@@ -118,4 +118,6 @@ h2 {
   resize: none;
   color: $color-primary-dark;
   padding: 10px;
+
+  &:focus {}
 }
