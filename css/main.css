@@ -110,6 +110,7 @@ h2 {
 }
 .solid:hover {
   transition: unset;
+  filter: brightness(95%);
 }
 
 ul {
