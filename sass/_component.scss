@@ -42,4 +42,6 @@ h2 {
     background-color: $color-primary-overlay-bg-2;
     margin-right: 5px;
   }
+
+  &::-webkit-scrollbar {}
 }
