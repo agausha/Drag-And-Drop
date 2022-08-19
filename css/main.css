@@ -79,11 +79,13 @@ h2 {
 }
 
 .on-hold-column .header,
+.on-hold-column .solid,
 .custom-scroll {
   overflow-y: auto;
   max-height: 75vh;
 }
 .on-hold-column .header::-webkit-scrollbar-track,
+.on-hold-column .solid::-webkit-scrollbar-track,
 .custom-scroll::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
   border-radius: 10px;
@@ -91,10 +93,12 @@ h2 {
   margin-right: 5px;
 }
 .on-hold-column .header::-webkit-scrollbar,
+.on-hold-column .solid::-webkit-scrollbar,
 .custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
 .on-hold-column .header::-webkit-scrollbar-thumb,
+.on-hold-column .solid::-webkit-scrollbar-thumb,
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
