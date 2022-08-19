@@ -119,5 +119,7 @@ h2 {
   color: $color-primary-dark;
   padding: 10px;
 
-  &:focus {}
+  &:focus {
+    outline: none;
+  }
 }
