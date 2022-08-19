@@ -40,6 +40,9 @@ h2 {
 .progress-column .header,
 .progress-column .solid,
 .progress-column .solid:hover,
+.progress-column .over {
+  background-color: $color-primary-column-2;
+}
 
 /////////////////////////////////////////
 // CUSTOM SCROLLBAR
