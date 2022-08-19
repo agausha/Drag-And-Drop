@@ -58,11 +58,13 @@ h2 {
 }
 
 .backlog-column .header,
+.backlog-column .solid,
 .custom-scroll {
   overflow-y: auto;
   max-height: 75vh;
 }
 .backlog-column .header::-webkit-scrollbar-track,
+.backlog-column .solid::-webkit-scrollbar-track,
 .custom-scroll::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
   border-radius: 10px;
@@ -70,10 +72,12 @@ h2 {
   margin-right: 5px;
 }
 .backlog-column .header::-webkit-scrollbar,
+.backlog-column .solid::-webkit-scrollbar,
 .custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
 .backlog-column .header::-webkit-scrollbar-thumb,
+.backlog-column .solid::-webkit-scrollbar-thumb,
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px hsla(0deg, 0%, 0%, 0.4);
