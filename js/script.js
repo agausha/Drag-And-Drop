@@ -138,6 +138,7 @@ function showInputBox(column) {
 function hideInputBox(column) {
   addBtns[column].style.visibility = 'visible';
   saveItemBtns[column].style.display = 'none';
+  addItemContainers[column].style.display = 'none';
 }
 
 // Allows arrays to reflect Drag and Drop Items
