@@ -104,6 +104,9 @@ function updateDOM() {
   updateSavedColumns();
 }
 
+// Allows arrays to reflect Drag and Drop Items
+function rebuildArrays() {}
+
 // When Item Starts Dragging
 function drag(e) {
   draggedItem = e.target;
