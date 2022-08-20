@@ -88,4 +88,5 @@ function updateDOM() {
   completeListArray.forEach((completeItem, index) => {
     createItemEl(completeList, 2, completeItem, index);
   });
+  onHoldListArray = filterArray(onHoldListArray);
 }
