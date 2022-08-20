@@ -127,6 +127,9 @@ function addToColumn(column) {
   updateDOM();
 }
 
+// Show Item Input Box
+function showInputBox(column) {}
+
 // Allows arrays to reflect Drag and Drop Items
 function rebuildArrays() {
   backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
