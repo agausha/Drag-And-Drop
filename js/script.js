@@ -1,0 +1,1 @@
+const addBtns = document.querySelectorAll('.add-btn:not(.solid)');
