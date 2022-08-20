@@ -68,6 +68,6 @@ function createItemEl(columnEl, column, item, index) {
 function updateDOM() {
   // Check localStorage once
   if (!updatedOnLoad) {
-    
+    getSavedColumns();
   }
 }
