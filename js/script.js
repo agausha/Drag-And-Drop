@@ -17,4 +17,11 @@ let onHoldListArray = [];
 let listArrays = [];
 
 // Get Arrays from localStorage if available, set default values if not
-function getSavedColumns() {}
+function getSavedColumns() {
+  if (localStorage.getItem('backlogItems')) {
+    backlogListArray = JSON.parse(localStorage.backlogItems);
+    progressListArray = JSON.parse(localStorage.progressItems);
+    completeListArray = JSON.parse(localStorage.completeItems);
+    onHoldListArray = JSON.parse(localStorage.onHoldItems);
+  }
+}
