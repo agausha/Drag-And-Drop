@@ -105,4 +105,6 @@ function updateDOM() {
 }
 
 // When Item Starts Dragging
-function drag(e) {}
+function drag(e) {
+  draggedItem = e.target;
+}
