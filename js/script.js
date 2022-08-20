@@ -85,4 +85,7 @@ function updateDOM() {
   completeListArray = filterArray(completeListArray);
   // Complete Column
   completeList.textContent = '';
+  completeListArray.forEach((completeItem, index) => {
+    createItemEl(completeList, 2, completeItem, index);
+  });
 }
