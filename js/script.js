@@ -15,3 +15,6 @@ let progressListArray = [];
 let completeListArray = [];
 let onHoldListArray = [];
 let listArrays = [];
+
+// Get Arrays from localStorage if available, set default values if not
+function getSavedColumns() {}
