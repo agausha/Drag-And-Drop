@@ -71,8 +71,10 @@ function updateDOM() {
     getSavedColumns();
   }
   backlogListArray = filterArray(backlogListArray);
+  // Backlog Column
   backlogList.textContent = '';
   backlogListArray.forEach((backlogItem, index) => {
     createItemEl(backlogList, 0, backlogItem, index);
   });
+  progressListArray = filterArray(progressListArray);
 }
