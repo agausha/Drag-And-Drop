@@ -118,6 +118,14 @@ function updateItem(id, column) {
   }
 }
 
+// Add to Column List; Reset Text Box
+function addToColumn(column) {
+  const itemText = addItems[column].textContent;
+  const selectedArray = listArrays[column];
+  selectedArray.push(itemText);
+  addItems[column].textContent = '';
+}
+
 // Allows arrays to reflect Drag and Drop Items
 function rebuildArrays() {
   backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
