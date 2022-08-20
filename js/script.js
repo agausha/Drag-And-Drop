@@ -109,6 +109,8 @@ function rebuildArrays() {
   backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
 
   progressListArray =  Array.from(progressList.children).map(i => i.textContent);
+
+  completeListArray =  Array.from(completeList.children).map(i => i.textContent);
 }
 
 // When Item Starts Dragging
