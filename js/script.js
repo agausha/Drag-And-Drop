@@ -104,6 +104,9 @@ function updateDOM() {
   updateSavedColumns();
 }
 
+// Update Item - Delete if necessary, or update Array value
+function updateItem(id, column) {}
+
 // Allows arrays to reflect Drag and Drop Items
 function rebuildArrays() {
   backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
