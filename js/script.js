@@ -105,7 +105,9 @@ function updateDOM() {
 }
 
 // Allows arrays to reflect Drag and Drop Items
-function rebuildArrays() {}
+function rebuildArrays() {
+  backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
+}
 
 // When Item Starts Dragging
 function drag(e) {
