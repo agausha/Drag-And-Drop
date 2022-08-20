@@ -72,4 +72,7 @@ function updateDOM() {
   }
   backlogListArray = filterArray(backlogListArray);
   backlogList.textContent = '';
+  backlogListArray.forEach((backlogItem, index) => {
+    createItemEl(backlogList, 0, backlogItem, index);
+  });
 }
