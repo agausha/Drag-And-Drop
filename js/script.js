@@ -32,4 +32,7 @@ function getSavedColumns() {
 }
 
 // Set localStorage Arrays
-function updateSavedColumns()
+function updateSavedColumns() {
+  listArrays = [backlogListArray, progressListArray, completeListArray, onHoldListArray];
+  const arrayNames = ['backlog', 'progress', 'complete', 'onHold'];
+}
