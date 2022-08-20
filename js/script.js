@@ -57,4 +57,6 @@ function createItemEl(columnEl, column, item, index) {
   listEl.contentEditable = true;
   listEl.id = index;
   listEl.setAttribute('onfocusout', `updateItem(${index}, ${column})`);
+   // Append
+   columnEl.appendChild(listEl);
 }
