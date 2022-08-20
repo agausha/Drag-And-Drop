@@ -131,6 +131,7 @@ function addToColumn(column) {
 function showInputBox(column) {
   addBtns[column].style.visibility = 'hidden';
   saveItemBtns[column].style.display = 'flex';
+  addItemContainers[column].style.display = 'flex';
 }
 
 // Allows arrays to reflect Drag and Drop Items
