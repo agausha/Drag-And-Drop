@@ -30,3 +30,6 @@ function getSavedColumns() {
     onHoldListArray = ['Go to mall'];
   }
 }
+
+// Set localStorage Arrays
+function updateSavedColumns()
