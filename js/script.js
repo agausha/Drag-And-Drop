@@ -11,3 +11,4 @@ const onHoldList = document.getElementById('on-hold-list');
 
 // Initialize Arrays
 let backlogListArray = [];
+let progressListArray = [];
