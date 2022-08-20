@@ -134,6 +134,9 @@ function showInputBox(column) {
   addItemContainers[column].style.display = 'flex';
 }
 
+// Hide Item Input Box
+function hideInputBox(column) {}
+
 // Allows arrays to reflect Drag and Drop Items
 function rebuildArrays() {
   backlogListArray = Array.from(backlogList.children).map(i => i.textContent);
