@@ -5,3 +5,4 @@ const addItems = document.querySelectorAll('.add-item');
 // Item Lists
 const listColumns = document.querySelectorAll('.drag-item-list');
 const backlogList = document.getElementById('backlog-list');
+const progressList = document.getElementById('progress-list');
