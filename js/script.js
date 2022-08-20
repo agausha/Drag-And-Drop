@@ -45,3 +45,6 @@ function updateSavedColumns() {
   const filteredArray = array.filter(item => item !== null);
   return filteredArray;
  }
+
+ // Create DOM Elements for each list item
+function createItemEl(columnEl, column, item, index) {}
