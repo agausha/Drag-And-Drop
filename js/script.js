@@ -118,4 +118,5 @@ function allowDrop(e) {
 // When Item Enters Column Area
 function dragEnter(column) {
   listColumns[column].classList.add('over');
+  currentColumn = column;
 }
