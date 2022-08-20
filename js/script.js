@@ -114,3 +114,6 @@ function drag(e) {
 function allowDrop(e) {
   e.preventDefault();
 }
+
+// When Item Enters Column Area
+function dragEnter(column) {}
