@@ -83,4 +83,6 @@ function updateDOM() {
     createItemEl(progressList, 1, progressItem, index);
   });
   completeListArray = filterArray(completeListArray);
+  // Complete Column
+  completeList.textContent = '';
 }
