@@ -111,6 +111,8 @@ function rebuildArrays() {
   progressListArray =  Array.from(progressList.children).map(i => i.textContent);
 
   completeListArray =  Array.from(completeList.children).map(i => i.textContent);
+
+  onHoldListArray =  Array.from(onHoldList.children).map(i => i.textContent);
 }
 
 // When Item Starts Dragging
