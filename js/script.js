@@ -71,4 +71,5 @@ function updateDOM() {
     getSavedColumns();
   }
   backlogListArray = filterArray(backlogListArray);
+  backlogList.textContent = '';
 }
