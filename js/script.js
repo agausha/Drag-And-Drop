@@ -122,4 +122,6 @@ function dragEnter(column) {
 }
 
 // Dropping Item in Column
-function drop(e) {}
+function drop(e) {
+  e.preventDefault();
+}
