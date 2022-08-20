@@ -109,3 +109,8 @@ function drag(e) {
   draggedItem = e.target;
   dragging = true;
 }
+
+// Column Allows for Item to Drop
+function allowDrop(e) {
+  e.preventDefault();
+}
