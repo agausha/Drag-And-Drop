@@ -131,4 +131,7 @@ function drop(e) {
   // Add Item to Column
   const parent = listColumns[currentColumn];
   parent.appendChild(draggedItem);
+  // Dragging complete
+  dragging = false;
+  rebuildArrays();
 }
