@@ -89,4 +89,6 @@ function updateDOM() {
     createItemEl(completeList, 2, completeItem, index);
   });
   onHoldListArray = filterArray(onHoldListArray);
+   // On Hold Column
+   onHoldList.textContent = '';
 }
