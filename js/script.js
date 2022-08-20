@@ -79,4 +79,7 @@ function updateDOM() {
   progressListArray = filterArray(progressListArray);
   // Progress Column
   progressList.textContent = '';
+  progressListArray.forEach((progressItem, index) => {
+    createItemEl(progressList, 1, progressItem, index);
+  });
 }
