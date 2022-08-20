@@ -14,3 +14,4 @@ let backlogListArray = [];
 let progressListArray = [];
 let completeListArray = [];
 let onHoldListArray = [];
+let listArrays = [];
