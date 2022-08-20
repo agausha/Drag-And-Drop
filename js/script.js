@@ -135,3 +135,6 @@ function drop(e) {
   dragging = false;
   rebuildArrays();
 }
+
+// On Load
+updateDOM();
