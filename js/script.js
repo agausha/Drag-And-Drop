@@ -21,6 +21,7 @@ let listArrays = [];
 
 // Drag Functionality
 let draggedItem;
+let dragging = false;
 
 // Get Arrays from localStorage if available, set default values if not
 function getSavedColumns() {
