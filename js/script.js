@@ -111,7 +111,10 @@ function updateItem(id, column) {
   if (!dragging) {
     if (!selectedColumnEl[id].textContent) {
       delete selectedArray[id];
+    } else {
+      selectedArray[id] = selectedColumnEl[id].textContent;
     }
+  }
 }
 
 // Allows arrays to reflect Drag and Drop Items
