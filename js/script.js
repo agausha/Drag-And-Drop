@@ -114,6 +114,7 @@ function updateItem(id, column) {
     } else {
       selectedArray[id] = selectedColumnEl[id].textContent;
     }
+    updateDOM();
   }
 }
 
