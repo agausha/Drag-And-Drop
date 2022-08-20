@@ -124,6 +124,7 @@ function addToColumn(column) {
   const selectedArray = listArrays[column];
   selectedArray.push(itemText);
   addItems[column].textContent = '';
+  updateDOM();
 }
 
 // Allows arrays to reflect Drag and Drop Items
