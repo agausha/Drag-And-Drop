@@ -128,7 +128,9 @@ function addToColumn(column) {
 }
 
 // Show Item Input Box
-function showInputBox(column) {}
+function showInputBox(column) {
+  addBtns[column].style.visibility = 'hidden';
+}
 
 // Allows arrays to reflect Drag and Drop Items
 function rebuildArrays() {
