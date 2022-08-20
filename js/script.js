@@ -77,4 +77,6 @@ function updateDOM() {
     createItemEl(backlogList, 0, backlogItem, index);
   });
   progressListArray = filterArray(progressListArray);
+  // Progress Column
+  progressList.textContent = '';
 }
