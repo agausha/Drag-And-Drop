@@ -120,3 +120,6 @@ function dragEnter(column) {
   listColumns[column].classList.add('over');
   currentColumn = column;
 }
+
+// Dropping Item in Column
+function drop(e) {}
