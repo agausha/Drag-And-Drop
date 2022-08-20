@@ -113,6 +113,8 @@ function rebuildArrays() {
   completeListArray =  Array.from(completeList.children).map(i => i.textContent);
 
   onHoldListArray =  Array.from(onHoldList.children).map(i => i.textContent);
+
+  updateDOM();
 }
 
 // When Item Starts Dragging
