@@ -7,3 +7,4 @@ const listColumns = document.querySelectorAll('.drag-item-list');
 const backlogList = document.getElementById('backlog-list');
 const progressList = document.getElementById('progress-list');
 const completeList = document.getElementById('complete-list');
+const onHoldList = document.getElementById('on-hold-list');
