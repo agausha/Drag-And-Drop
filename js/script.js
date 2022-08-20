@@ -39,3 +39,9 @@ function updateSavedColumns() {
     localStorage.setItem(`${arrayName}Items`, JSON.stringify(listArrays[index]));
   });
 }
+
+ // Filter Arrays to remove empty items
+ function filterArray(array) {
+  const filteredArray = array.filter(item => item !== null);
+  return filteredArray;
+ }
