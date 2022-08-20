@@ -127,5 +127,8 @@ function drop(e) {
   // Remove Background Color/Padding
   listColumns.forEach((column) => {
     column.classList.remove('over');
-  })
+  });
+  // Add Item to Column
+  const parent = listColumns[currentColumn];
+  parent.appendChild(draggedItem);
 }
