@@ -82,4 +82,5 @@ function updateDOM() {
   progressListArray.forEach((progressItem, index) => {
     createItemEl(progressList, 1, progressItem, index);
   });
+  completeListArray = filterArray(completeListArray);
 }
