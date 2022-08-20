@@ -13,3 +13,4 @@ const onHoldList = document.getElementById('on-hold-list');
 let backlogListArray = [];
 let progressListArray = [];
 let completeListArray = [];
+let onHoldListArray = [];
