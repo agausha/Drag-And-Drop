@@ -70,4 +70,5 @@ function updateDOM() {
   if (!updatedOnLoad) {
     getSavedColumns();
   }
+  backlogListArray = filterArray(backlogListArray);
 }
