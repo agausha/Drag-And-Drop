@@ -103,3 +103,6 @@ function updateDOM() {
   updatedOnLoad = true;
   updateSavedColumns();
 }
+
+// When Item Starts Dragging
+function drag(e) {}
